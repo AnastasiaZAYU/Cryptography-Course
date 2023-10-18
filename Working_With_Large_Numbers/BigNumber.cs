@@ -322,6 +322,29 @@ namespace BigNumbers
             return TrueSize(q);
         }
 
+        public List<int> POWMOD(List<int> e, List<int> bin, List<int> n)
+        {
+            List<int> m = LongM(n);
+            List<int> a = e.ToList();
+            List<int> c = new List<int> { 1 };
+            string b = LongBin(bin);
+            for (int i = 0; i < b.Length; i++)
+            {
+                if (b[i] == '1')
+                {
+                    c = MUL(c, a);
+                    TrueSize(a);
+                    TrueSize(c);
+                    c = MOD(c, n);
+                    TrueSize(c);
+                }
+                a = MUL(a, a);
+                a = MOD(a, n);
+                TrueSize(a);
+            }
+            return c;
+        }
+
         //допоміжні функції
 
         private List<int> LongMulOneDigit(List<int> a, int b)
@@ -340,6 +363,22 @@ namespace BigNumbers
             }
             c.Add(Convert.ToInt32(carry));
             return TrueSize(c);
+        }
+
+        private string LongBin(List<int> list)
+        {
+            string s = getHex(list);
+            string b = "";
+            string temp = "";
+            for (int i = 0; i < s.Length; i++)
+            {
+                temp = "" + s[i];
+                temp = Convert.ToString(Convert.ToInt32(temp, 16), 2);
+                while (temp.Length < 4) temp = "0" + temp;
+                b = b + temp;
+            }
+            b = new string(b.Reverse().ToArray());
+            return b;
         }
 
         private int LongCmp(List<int> a, List<int> b)
