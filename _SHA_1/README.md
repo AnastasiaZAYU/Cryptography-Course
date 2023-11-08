@@ -22,30 +22,32 @@
 
 **Тест на співпадіння гешу з бібліотечною реалізацією**
 
-![0](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\0.png)
+![0](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/0.png)
 
-![1](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\1.png)
+![1](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/1.png)
 
-![2](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\2.png)
+![2](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/2.png)
 
-![3](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\3.png)
+![3](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/3.png)
 
  Отже, моя реалізація алгоритму гешування SHA-1 працює коректно.
 
 **Порівняння швидкодії власної реалізації з бібліотечною**
 
 Замір часу витраченого на гешування певного повідомлення моєї функцією = 00:00:00.0055242.
+
 Замір часу гешування функцією з готової бібліотеки = 00:00:00.0124090.
 
-![4](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\4.png)
+![4](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/4.png)
 
 Гешування функцією з готової бібліотеки потребує більше часу, ніж моя реалізація. Отже, можна дійти висновку, що власна реалзіація є ефективною.
 
 Я зробила замір обсягу використаної оперативної та приватної памʼяті.
 
 Обсяг використаної оперативної пам'яті на гешування моєї функції = 14151680 байт, приватної = 9244672 байт.
+
 Обсяг використаної оперативної пам'яті на гешування функцією з готової бібліотеки = 14954496 байт, приватної = 9359360 байт.
 
-![5](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1\screenshots\5.png)
+![5](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/_SHA_1/screenshots/5.png)
 
 Гешування функцією з готової бібліотеки використовує більший обсяг пам'яті', ніж моя реалізація. Отже, можна дійти висновку, що власна реалзіація є ефективною.
