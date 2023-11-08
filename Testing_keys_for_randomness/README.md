@@ -22,13 +22,13 @@
 
 Рис.1 - Результат перевірки на випадковість згенерованої послідовності
 
-![Екран після виконання дії 2](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Testing_keys_for_randomness\screenshots\0.png)
+![Екран після виконання дії 2](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Testing_keys_for_randomness/screenshots/0.png)
 
 3. Натиснули "1" + Enter.
 4. Написали кількість послідовностей, які потрібно згенерувати та перевірити на випадковість, + Enter. На екрані з'явився результат перевірки цих згенерованих послідовностей на випадковість.
 
 Рис.2 - Результат перевірки заданої кількості згенерованих послідовностей на випадковість
 
-![Екран після виконання дій 3-4](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Testing_keys_for_randomness\screenshots\1.png)
+![Екран після виконання дій 3-4](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Testing_keys_for_randomness/screenshots/1.png)
 
 8. Натиснули "2" + Enter. Застосунок закрився.
