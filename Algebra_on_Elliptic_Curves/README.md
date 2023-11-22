@@ -35,6 +35,6 @@
 
 **Проходження тестів**
 
-![0](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Algebra_on_Elliptic_Curves\screenshots\0.png)
+![0](https://github.com/AnastasiaZAYU/Cryptography-Course/blob/main/Algebra_on_Elliptic_Curves/screenshots/0.png)
 
  Отже, моя реалізація функцій-обгорток працює коректно.
